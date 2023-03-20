@@ -1,0 +1,28 @@
+{
+  "name": "RNStoreReview",
+  "version": "0.3.0",
+  "summary": "App Store Ratings for React Native.",
+  "homepage": "https://github.com/oblador/react-native-store-review",
+  "license": "MIT",
+  "authors": {
+    "Joel Arvidsson": "joel@oblador.se"
+  },
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "git": "https://github.com/oblador/react-native-store-review.git",
+    "tag": "v0.3.0"
+  },
+  "source_files": "ios/*.{h,m,mm}",
+  "preserve_paths": "**/*.js",
+  "ios": {
+    "frameworks": "StoreKit"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

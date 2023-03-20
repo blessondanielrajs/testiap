@@ -1,0 +1,121 @@
+{
+  "name": "react-native-user-avatar",
+  "version": "1.0.8",
+  "description": "React Native component for a user avatar with fallback to colored initials",
+  "main": "lib/module/index.js",
+  "module": "lib/module/index.js",
+  "react-native": "src/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "avatar",
+    "initials"
+  ],
+  "author": "Avishay Bar <avishay.il@gmail.com>",
+  "license": "MIT",
+  "repository": "github:avishayil/react-native-user-avatar",
+  "scripts": {
+    "test": "jest --coverage && jest-coverage-badges --output './badges'",
+    "typescript": "tsc --noEmit",
+    "lint": "eslint --ext '.js' .",
+    "prepare": "bob build",
+    "release": "dotenv release-it",
+    "example": "yarn --cwd example",
+    "bootstrap": "yarn example && yarn && cp .env.example .env",
+    "clean": "rm -rf node_modules coverage .env lib Example/node_modules"
+  },
+  "dependencies": {
+    "abortcontroller-polyfill": "^1.4.0",
+    "initials": "^3.0.1",
+    "prop-types": "^15.7.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
+    "@react-native-community/bob": "^0.10.1",
+    "@release-it/conventional-changelog": "^1.1.0",
+    "@types/react-native": "^0.62.2",
+    "babel-jest": "24.7.1",
+    "commitlint": "^8.3.4",
+    "dotenv-cli": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^1.3.1",
+    "jest": "^24.9.0",
+    "jest-coverage-badges": "^1.1.2",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-test-renderer": "16.11.0",
+    "release-it": "^12.6.3",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+    },
+    "testMatch": [
+      "**/**/*.test.js?(x)"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/Example/",
+      "<rootDir>/lib/"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "yarn lint && yarn typescript && yarn test"
+    }
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release %s",
+      "tagName": "v%s"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular"
+      }
+    }
+  },
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "module",
+      "typescript"
+    ],
+    "files": [
+      "src/"
+    ]
+  }
+}

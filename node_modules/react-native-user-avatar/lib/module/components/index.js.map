@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":"4dAAA,kEACA,gEACA","sourcesContent":["import ImageAvatar from './ImageAvatar';\nimport TextAvatar from './TextAvatar';\nimport CustomAvatar from './CustomAvatar';\n\nexport {ImageAvatar, TextAvatar, CustomAvatar};\n"]}

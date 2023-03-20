@@ -1,0 +1,27 @@
+{
+  "name": "react-native-payments",
+  "version": "0.8.4",
+  "summary": "Welcome to the best and most comprehensive library for integrating payments like Apple Pay and Google Pay into your React Native app.",
+  "requires_arc": true,
+  "license": "MIT",
+  "homepage": "https://github.com/naoufal/react-native-payments",
+  "authors": "Naoufal Kadhom & Freeman Industries",
+  "source": {
+    "git": "https://github.com/naoufal/react-native-payments"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "React": [
+
+    ],
+    "Stripe": [
+      "~> 19"
+    ],
+    "Braintree": [
+      "~> 4"
+    ]
+  }
+}

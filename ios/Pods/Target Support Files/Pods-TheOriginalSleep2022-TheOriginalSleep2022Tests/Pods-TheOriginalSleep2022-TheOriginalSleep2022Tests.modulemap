@@ -1,0 +1,6 @@
+module Pods_TheOriginalSleep2022_TheOriginalSleep2022Tests {
+  umbrella header "Pods-TheOriginalSleep2022-TheOriginalSleep2022Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

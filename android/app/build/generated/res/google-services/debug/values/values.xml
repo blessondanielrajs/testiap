@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://original-sleep-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">565691215957</string>
+    <string name="google_api_key" translatable="false">AIzaSyBTqOHGD7IO66UUOMAwVtiGDIzt_kBbM9o</string>
+    <string name="google_app_id" translatable="false">1:565691215957:android:9065d5c711c0c02eb624dc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTqOHGD7IO66UUOMAwVtiGDIzt_kBbM9o</string>
+    <string name="google_storage_bucket" translatable="false">original-sleep.appspot.com</string>
+    <string name="project_id" translatable="false">original-sleep</string>
+</resources>

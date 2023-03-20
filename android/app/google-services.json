@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "565691215957",
+    "firebase_url": "https://original-sleep-default-rtdb.firebaseio.com",
+    "project_id": "original-sleep",
+    "storage_bucket": "original-sleep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565691215957:android:8bb524a9806a42b7b624dc",
+        "android_client_info": {
+          "package_name": "com.sleep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565691215957-0rppqqeqob6l7h9hdehfs9pmku1r2sfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleep",
+            "certificate_hash": "d90be3a6afdeaf9f1e006b58da338157bb47cbb5"
+          }
+        },
+        {
+          "client_id": "565691215957-usmgd94gkuce0gievvfgqb3clptlvfag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleep",
+            "certificate_hash": "cce7779e47067be43ab63f7836ae7d44785580e5"
+          }
+        },
+        {
+          "client_id": "565691215957-vt3ckkgh8flnsg169h461kgob24ftsre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleep",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTqOHGD7IO66UUOMAwVtiGDIzt_kBbM9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565691215957-6pc7ihfnjkr5don9dnv9tm7dtcciihm1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "565691215957-615go7dv0pktvaenc281pcn4isa6us09.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.original.sleep"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565691215957:android:9065d5c711c0c02eb624dc",
+        "android_client_info": {
+          "package_name": "com.sleep2022.original"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565691215957-1m3f5bphg8v1lo3av0bukag3goe6k6m3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleep2022.original",
+            "certificate_hash": "d90be3a6afdeaf9f1e006b58da338157bb47cbb5"
+          }
+        },
+        {
+          "client_id": "565691215957-797gb07mc3l2ad9v96h733lbodt8o6me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleep2022.original",
+            "certificate_hash": "cce7779e47067be43ab63f7836ae7d44785580e5"
+          }
+        },
+        {
+          "client_id": "565691215957-bt1u8m021ao37grvb3l19j0docckio2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleep2022.original",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "565691215957-dgrskkh2q384n84rra8fugtun6vdqu86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleep2022.original",
+            "certificate_hash": "c34c2647df18df368b30a05d67e7ef788e81bcc1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTqOHGD7IO66UUOMAwVtiGDIzt_kBbM9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565691215957-6pc7ihfnjkr5don9dnv9tm7dtcciihm1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "565691215957-615go7dv0pktvaenc281pcn4isa6us09.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.original.sleep"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

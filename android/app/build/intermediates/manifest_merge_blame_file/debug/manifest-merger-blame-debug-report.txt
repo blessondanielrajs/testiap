@@ -1,0 +1,976 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sleep2022.original"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:5:1-60
+13-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:5:18-58
+14
+15    <uses-feature
+15-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:6:1-81
+16        android:name="android.hardware.camera"
+16-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:6:15-53
+17        android:required="false" />
+17-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:6:54-78
+18    <uses-feature
+18-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:7:1-87
+19        android:name="android.hardware.camera.front"
+19-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:7:15-59
+20        android:required="false" />
+20-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:7:60-84
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/spurge/.gradle/caches/transforms-3/6592dcbdc85f0d9e1988e0bc1c08f0ef/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/spurge/.gradle/caches/transforms-3/6592dcbdc85f0d9e1988e0bc1c08f0ef/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:react-native-firebase_auth] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+23-->[:react-native-firebase_auth] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[:react-native-firebase_auth] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+24-->[:react-native-firebase_auth] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+25
+26    <queries>
+26-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+27        <intent>
+27-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+28            <action android:name="android.media.action.IMAGE_CAPTURE" />
+28-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+28-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+29        </intent>
+30
+31        <package android:name="com.facebook.katana" /> <!-- Added to check the default browser that will host the AuthFlow. -->
+31-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:18:9-55
+31-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:18:18-52
+32        <intent>
+32-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:15:9-19:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-69
+33-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-66
+34
+35            <data android:scheme="http" />
+35-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+35-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+36        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+37        <package android:name="com.android.chrome" /> <!-- Needs to be explicitly declared on Android R+ -->
+37-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:13:9-54
+37-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:13:18-51
+38        <package android:name="com.google.android.apps.maps" />
+38-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+38-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+41-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+41-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-78
+42    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+43    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+44    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+44-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/spurge/.gradle/caches/transforms-3/ed46e8fdb19cccb3073f0c9c1e735b11/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+44-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/spurge/.gradle/caches/transforms-3/ed46e8fdb19cccb3073f0c9c1e735b11/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+45    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+45-->[com.google.android.gms:play-services-iid:17.0.0] /Users/spurge/.gradle/caches/transforms-3/f78e67b4928294f9ea158433736237bd/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+45-->[com.google.android.gms:play-services-iid:17.0.0] /Users/spurge/.gradle/caches/transforms-3/f78e67b4928294f9ea158433736237bd/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+46    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+46-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+46-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+47
+48    <uses-feature
+48-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+49        android:glEsVersion="0x00020000"
+49-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+50        android:required="true" />
+50-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+51
+52    <permission
+52-->[androidx.core:core:1.9.0] /Users/spurge/.gradle/caches/transforms-3/0ac46578616a7bdf55a71d65957e27e5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+53        android:name="com.sleep2022.original.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.9.0] /Users/spurge/.gradle/caches/transforms-3/0ac46578616a7bdf55a71d65957e27e5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.9.0] /Users/spurge/.gradle/caches/transforms-3/0ac46578616a7bdf55a71d65957e27e5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.sleep2022.original.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+56-->[androidx.core:core:1.9.0] /Users/spurge/.gradle/caches/transforms-3/0ac46578616a7bdf55a71d65957e27e5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.9.0] /Users/spurge/.gradle/caches/transforms-3/0ac46578616a7bdf55a71d65957e27e5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+57    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+58    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+58-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:13:5-77
+58-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:13:22-74
+59
+60    <application
+60-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:8:5-33:19
+61        android:name="com.sleep2022.original.MainApplication"
+61-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:9:7-38
+62        android:allowBackup="false"
+62-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:13:7-34
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.9.0] /Users/spurge/.gradle/caches/transforms-3/0ac46578616a7bdf55a71d65957e27e5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+64        android:debuggable="true"
+65        android:icon="@mipmap/ic_launcher"
+65-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:11:7-41
+66        android:label="@string/app_name"
+66-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:10:7-39
+67        android:roundIcon="@mipmap/ic_launcher_round"
+67-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:12:7-52
+68        android:supportsRtl="true"
+68-->[com.facebook.android:facebook-android-sdk:15.2.0] /Users/spurge/.gradle/caches/transforms-3/17afb801fff3121519763c0ab11d951e/transformed/jetified-facebook-android-sdk-15.2.0/AndroidManifest.xml:16:18-44
+69        android:theme="@style/AppTheme"
+69-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:14:7-38
+70        android:usesCleartextTraffic="true" >
+70-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/debug/AndroidManifest.xml:8:9-44
+71        <activity
+71-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/debug/AndroidManifest.xml:11:9-111
+72            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+72-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/debug/AndroidManifest.xml:11:19-83
+73            android:exported="false" />
+73-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/debug/AndroidManifest.xml:11:84-108
+74
+75        <meta-data
+75-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:17:5-103
+76            android:name="com.facebook.sdk.ApplicationId"
+76-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:17:16-61
+77            android:value="@string/facebook_app_id" />
+77-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:17:62-101
+78        <meta-data
+78-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:18:5-107
+79            android:name="com.facebook.sdk.ClientToken"
+79-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:18:16-59
+80            android:value="@string/facebook_client_token" />
+80-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:18:60-105
+81
+82        <activity
+82-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:21:7-32:18
+83            android:name="com.sleep2022.original.MainActivity"
+83-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:22:9-37
+84            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+84-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:24:9-118
+85            android:exported="true"
+85-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:27:9-32
+86            android:label="@string/app_name"
+86-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:23:9-41
+87            android:launchMode="singleTask"
+87-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:25:9-40
+88            android:windowSoftInputMode="adjustResize" >
+88-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:26:9-51
+89            <intent-filter>
+89-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:28:9-31:25
+90                <action android:name="android.intent.action.MAIN" />
+90-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:29:13-65
+90-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:29:21-62
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:30:13-73
+92-->/Users/spurge/Desktop/new]/backup/sleep/android/app/src/main/AndroidManifest.xml:30:23-70
+93            </intent-filter>
+94        </activity>
+95
+96        <meta-data
+96-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+97            android:name="app_data_collection_default_enabled"
+97-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+98            android:value="true" />
+98-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+99
+100        <service
+100-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+101            android:name="com.google.firebase.components.ComponentDiscoveryService"
+101-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:20.2.0] /Users/spurge/.gradle/caches/transforms-3/ab645571c40a0f11f664322f1af1439e/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+104            <meta-data
+104-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+105                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+105-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+108                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+108-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-firestore:24.4.1] /Users/spurge/.gradle/caches/transforms-3/bf5093302e9b7854d646fa6ec8462eee/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
+111                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+111-->[com.google.firebase:firebase-firestore:24.4.1] /Users/spurge/.gradle/caches/transforms-3/bf5093302e9b7854d646fa6ec8462eee/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-firestore:24.4.1] /Users/spurge/.gradle/caches/transforms-3/bf5093302e9b7854d646fa6ec8462eee/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
+113            <meta-data
+113-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/spurge/.gradle/caches/transforms-3/ed46e8fdb19cccb3073f0c9c1e735b11/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+114                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+114-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/spurge/.gradle/caches/transforms-3/ed46e8fdb19cccb3073f0c9c1e735b11/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/spurge/.gradle/caches/transforms-3/ed46e8fdb19cccb3073f0c9c1e735b11/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-installations:17.1.0] /Users/spurge/.gradle/caches/transforms-3/fa4831922e601c1b2f469d4b3d73b0f4/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+117                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+117-->[com.google.firebase:firebase-installations:17.1.0] /Users/spurge/.gradle/caches/transforms-3/fa4831922e601c1b2f469d4b3d73b0f4/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-installations:17.1.0] /Users/spurge/.gradle/caches/transforms-3/fa4831922e601c1b2f469d4b3d73b0f4/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+119        </service>
+120
+121        <provider
+121-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+122            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+122-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+123            android:authorities="com.sleep2022.original.reactnativefirebaseappinitprovider"
+123-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+124            android:exported="false"
+124-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+125            android:initOrder="99" />
+125-->[:react-native-firebase_app] /Users/spurge/Desktop/new]/backup/sleep/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+126
+127        <activity
+127-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:75
+128            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+128-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-67
+129            android:exported="false"
+129-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+130            android:launchMode="singleTask"
+130-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-44
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-72
+132        <activity
+132-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-28:20
+133            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+133-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-67
+134            android:exported="true"
+134-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+135            android:launchMode="singleTask"
+135-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-44
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+136-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-83
+137            <intent-filter>
+137-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-27:29
+138                <action android:name="android.intent.action.VIEW" />
+138-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-69
+138-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-76
+140-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+141-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-75
+142
+143                <data android:scheme="example" />
+143-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+143-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+144            </intent-filter>
+145        </activity>
+146
+147        <provider
+147-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+148            android:name="androidx.core.content.FileProvider"
+148-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+149            android:authorities="com.sleep2022.original.provider"
+149-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+150            android:exported="false"
+150-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+151            android:grantUriPermissions="true" >
+151-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+152            <meta-data
+152-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+153                android:name="android.support.FILE_PROVIDER_PATHS"
+153-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+154                android:resource="@xml/provider_paths" />
+154-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+155        </provider>
+156
+157        <activity
+157-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+158            android:name="com.yalantis.ucrop.UCropActivity"
+158-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+159            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+159-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+160
+161        <provider
+161-->[:react-native-image-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+162            android:name="com.imagepicker.ImagePickerProvider"
+162-->[:react-native-image-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+163            android:authorities="com.sleep2022.original.imagepickerprovider"
+163-->[:react-native-image-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+164            android:exported="false"
+164-->[:react-native-image-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+165            android:grantUriPermissions="true" >
+165-->[:react-native-image-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+166            <meta-data
+166-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+167                android:name="android.support.FILE_PROVIDER_PATHS"
+167-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+168                android:resource="@xml/imagepicker_provider_paths" />
+168-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+169        </provider>
+170        <provider
+170-->[:react-native-share] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+171            android:name="cl.json.RNShareFileProvider"
+171-->[:react-native-share] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-55
+172            android:authorities="com.sleep2022.original.rnshare.fileprovider"
+172-->[:react-native-share] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-72
+173            android:exported="false"
+173-->[:react-native-share] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+174            android:grantUriPermissions="true" >
+174-->[:react-native-share] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+175            <meta-data
+175-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+176                android:name="android.support.FILE_PROVIDER_PATHS"
+176-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+177                android:resource="@xml/share_download_paths" />
+177-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+178        </provider>
+179        <provider
+179-->[:react-native-webview] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+180            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+180-->[:react-native-webview] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+181            android:authorities="com.sleep2022.original.fileprovider"
+181-->[:react-native-webview] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+182            android:exported="false"
+182-->[:react-native-webview] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+183            android:grantUriPermissions="true" >
+183-->[:react-native-webview] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+184            <meta-data
+184-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+185                android:name="android.support.FILE_PROVIDER_PATHS"
+185-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+186                android:resource="@xml/file_provider_paths" />
+186-->[:react-native-image-crop-picker] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+187        </provider>
+188
+189        <activity
+189-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:22:9-25:66
+190            android:name="com.facebook.FacebookActivity"
+190-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:23:13-57
+191            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+191-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:24:13-96
+192            android:theme="@style/com_facebook_activity_theme" />
+192-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:25:13-63
+193        <activity android:name="com.facebook.CustomTabMainActivity" />
+193-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:26:9-71
+193-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:26:19-68
+194        <activity
+194-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:27:9-41:20
+195            android:name="com.facebook.CustomTabActivity"
+195-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:28:13-58
+196            android:exported="true" >
+196-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:29:13-36
+197            <intent-filter>
+197-->[com.facebook.android:facebook-common:15.2.0] /Users/spurge/.gradle/caches/transforms-3/925b477b90c63ad0ba0988a14af2c58d/transformed/jetified-facebook-common-15.2.0/AndroidManifest.xml:31:13-40:29
+198                <action android:name="android.intent.action.VIEW" />
+198-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-69
+198-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-66
+199
+200                <category android:name="android.intent.category.DEFAULT" />
+200-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-76
+200-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:27-73
+201                <category android:name="android.intent.category.BROWSABLE" />
+201-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+201-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-75
+202
+203                <data
+203-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+204                    android:host="cct.com.sleep2022.original"
+205                    android:scheme="fbconnect" />
+205-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+206            </intent-filter>
+207        </activity>
+208
+209        <service
+209-->[:react-native-music-control] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-music-control/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:43
+210            android:name="com.tanguyantoine.react.MusicControlNotification$NotificationService"
+210-->[:react-native-music-control] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-music-control/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-96
+211            android:foregroundServiceType="mediaPlayback"
+211-->[:react-native-music-control] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-music-control/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-58
+212            android:stopWithTask="true" />
+212-->[:react-native-music-control] /Users/spurge/Desktop/new]/backup/sleep/node_modules/react-native-music-control/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-40
+213
+214        <activity
+214-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+215            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+215-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+216            android:excludeFromRecents="true"
+216-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+217            android:exported="true"
+217-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+218            android:launchMode="singleTask"
+218-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+219-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+220            <intent-filter>
+220-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+221                <action android:name="android.intent.action.VIEW" />
+221-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-69
+221-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-66
+222
+223                <category android:name="android.intent.category.DEFAULT" />
+223-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-76
+223-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:27-73
+224                <category android:name="android.intent.category.BROWSABLE" />
+224-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+224-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-75
+225
+226                <data
+226-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+227                    android:host="firebase.auth"
+228                    android:path="/"
+229                    android:scheme="genericidp" />
+229-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+230            </intent-filter>
+231        </activity>
+232        <activity
+232-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+233            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+233-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+234            android:excludeFromRecents="true"
+234-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+235            android:exported="true"
+235-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+236            android:launchMode="singleTask"
+236-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+237-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+238            <intent-filter>
+238-->[com.google.firebase:firebase-auth:21.1.0] /Users/spurge/.gradle/caches/transforms-3/a40b2473853c8b74e25d75889c4ee994/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+239                <action android:name="android.intent.action.VIEW" />
+239-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-69
+239-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-66
+240
+241                <category android:name="android.intent.category.DEFAULT" />
+241-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-76
+241-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:27-73
+242                <category android:name="android.intent.category.BROWSABLE" />
+242-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+242-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-75
+243
+244                <data
+244-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+245                    android:host="firebase.auth"
+246                    android:path="/"
+247                    android:scheme="recaptcha" />
+247-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+248            </intent-filter>
+249        </activity>
+250
+251        <provider
+251-->[com.google.firebase:firebase-common:20.2.0] /Users/spurge/.gradle/caches/transforms-3/ab645571c40a0f11f664322f1af1439e/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+252            android:name="com.google.firebase.provider.FirebaseInitProvider"
+252-->[com.google.firebase:firebase-common:20.2.0] /Users/spurge/.gradle/caches/transforms-3/ab645571c40a0f11f664322f1af1439e/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+253            android:authorities="com.sleep2022.original.firebaseinitprovider"
+253-->[com.google.firebase:firebase-common:20.2.0] /Users/spurge/.gradle/caches/transforms-3/ab645571c40a0f11f664322f1af1439e/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+254            android:directBootAware="true"
+254-->[com.google.firebase:firebase-common:20.2.0] /Users/spurge/.gradle/caches/transforms-3/ab645571c40a0f11f664322f1af1439e/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+255            android:exported="false"
+255-->[com.google.firebase:firebase-common:20.2.0] /Users/spurge/.gradle/caches/transforms-3/ab645571c40a0f11f664322f1af1439e/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+256            android:initOrder="100" />
+256-->[com.google.firebase:firebase-common:20.2.0] /Users/spurge/.gradle/caches/transforms-3/ab645571c40a0f11f664322f1af1439e/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+257
+258        <activity
+258-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:10:9-13:69
+259            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+259-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:11:13-80
+260            android:exported="false"
+260-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:12:13-37
+261            android:theme="@style/StripePaymentSheetDefaultTheme" />
+261-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:13:13-66
+262        <activity
+262-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:14:9-17:69
+263            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+263-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:15:13-82
+264            android:exported="false"
+264-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:16:13-37
+265            android:theme="@style/StripePaymentSheetDefaultTheme" />
+265-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:17:13-66
+266        <activity
+266-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:18:9-21:69
+267            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+267-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:19:13-97
+268            android:exported="false"
+268-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:20:13-37
+269            android:theme="@style/StripePaymentSheetDefaultTheme" />
+269-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:21:13-66
+270        <activity
+270-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:22:9-25:69
+271            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+271-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:23:13-105
+272            android:exported="false"
+272-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:24:13-37
+273            android:theme="@style/StripePaymentSheetDefaultTheme" />
+273-->[com.stripe:paymentsheet:20.16.2] /Users/spurge/.gradle/caches/transforms-3/605958c7ae613ee77ee0f6bb2192a8f6/transformed/jetified-paymentsheet-20.16.2/AndroidManifest.xml:25:13-66
+274        <activity
+274-->[com.stripe:link:20.16.2] /Users/spurge/.gradle/caches/transforms-3/7e6c69ef8180711ebe1eaf389e29c2e0/transformed/jetified-link-20.16.2/AndroidManifest.xml:10:9-15:58
+275            android:name="com.stripe.android.link.LinkActivity"
+275-->[com.stripe:link:20.16.2] /Users/spurge/.gradle/caches/transforms-3/7e6c69ef8180711ebe1eaf389e29c2e0/transformed/jetified-link-20.16.2/AndroidManifest.xml:11:13-64
+276            android:exported="false"
+276-->[com.stripe:link:20.16.2] /Users/spurge/.gradle/caches/transforms-3/7e6c69ef8180711ebe1eaf389e29c2e0/transformed/jetified-link-20.16.2/AndroidManifest.xml:12:13-37
+277            android:label="@string/link"
+277-->[com.stripe:link:20.16.2] /Users/spurge/.gradle/caches/transforms-3/7e6c69ef8180711ebe1eaf389e29c2e0/transformed/jetified-link-20.16.2/AndroidManifest.xml:13:13-41
+278            android:theme="@style/LinkBaseTheme"
+278-->[com.stripe:link:20.16.2] /Users/spurge/.gradle/caches/transforms-3/7e6c69ef8180711ebe1eaf389e29c2e0/transformed/jetified-link-20.16.2/AndroidManifest.xml:14:13-49
+279            android:windowSoftInputMode="adjustResize" />
+279-->[com.stripe:link:20.16.2] /Users/spurge/.gradle/caches/transforms-3/7e6c69ef8180711ebe1eaf389e29c2e0/transformed/jetified-link-20.16.2/AndroidManifest.xml:15:13-55
+280        <activity
+280-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:23:9-48:20
+281            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+281-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:24:13-109
+282            android:exported="true" >
+282-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:25:13-36
+283            <intent-filter>
+283-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:26:13-47:29
+284                <action android:name="android.intent.action.VIEW" />
+284-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-69
+284-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-66
+285
+286                <category android:name="android.intent.category.DEFAULT" />
+286-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-76
+286-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:27-73
+287                <category android:name="android.intent.category.BROWSABLE" />
+287-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+287-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-75
+288
+289                <!-- Accepts success and cancel URIs that begin with "stripe-auth://link-accounts” -->
+290                <data
+290-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+291                    android:host="link-accounts"
+292                    android:path="/com.sleep2022.original/success"
+293                    android:scheme="stripe-auth" />
+293-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+294                <data
+294-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+295                    android:host="link-accounts"
+296                    android:path="/com.sleep2022.original/cancel"
+297                    android:scheme="stripe-auth" />
+297-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+298
+299                <!-- Accepts success/cancel/fail URIs that begin with "stripe-auth://auth-redirect” -->
+300                <data
+300-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+301                    android:host="auth-redirect"
+302                    android:pathPrefix="/com.sleep2022.original"
+303                    android:scheme="stripe" />
+303-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+304            </intent-filter>
+305        </activity>
+306        <activity
+306-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:49:9-52:57
+307            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+307-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:50:13-101
+308            android:exported="false"
+308-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:51:13-37
+309            android:theme="@style/StripeDefaultTheme" />
+309-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:52:13-54
+310        <activity
+310-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:53:9-57:58
+311            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+311-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:54:13-110
+312            android:exported="false"
+312-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:55:13-37
+313            android:theme="@style/StripeDefaultTheme"
+313-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:56:13-54
+314            android:windowSoftInputMode="adjustResize" />
+314-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:57:13-55
+315
+316        <provider
+316-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:59:9-63:43
+317            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+317-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:60:13-114
+318            android:authorities="com.sleep2022.original.financialconnections-init"
+318-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:61:13-77
+319            android:exported="false"
+319-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:62:13-37
+320            android:multiprocess="true" />
+320-->[com.stripe:financial-connections:20.16.2] /Users/spurge/.gradle/caches/transforms-3/561bffe6dd1d53085a07c51284daeef3/transformed/jetified-financial-connections-20.16.2/AndroidManifest.xml:63:13-40
+321
+322        <activity
+322-->[com.stripe:payments-ui-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/ac9e48e7895cbd11ed23787c52a0ee7d/transformed/jetified-payments-ui-core-20.16.2/AndroidManifest.xml:10:9-13:69
+323            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+323-->[com.stripe:payments-ui-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/ac9e48e7895cbd11ed23787c52a0ee7d/transformed/jetified-payments-ui-core-20.16.2/AndroidManifest.xml:11:13-80
+324            android:exported="false"
+324-->[com.stripe:payments-ui-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/ac9e48e7895cbd11ed23787c52a0ee7d/transformed/jetified-payments-ui-core-20.16.2/AndroidManifest.xml:12:13-37
+325            android:theme="@style/StripePaymentSheetDefaultTheme" />
+325-->[com.stripe:payments-ui-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/ac9e48e7895cbd11ed23787c52a0ee7d/transformed/jetified-payments-ui-core-20.16.2/AndroidManifest.xml:13:13-66
+326        <activity
+326-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:17:9-20:57
+327            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+327-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:18:13-76
+328            android:exported="false"
+328-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:19:13-37
+329            android:theme="@style/StripeDefaultTheme" />
+329-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:20:13-54
+330        <activity
+330-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:21:9-24:57
+331            android:name="com.stripe.android.view.PaymentMethodsActivity"
+331-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:22:13-74
+332            android:exported="false"
+332-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:23:13-37
+333            android:theme="@style/StripeDefaultTheme" />
+333-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:24:13-54
+334        <activity
+334-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:25:9-28:57
+335            android:name="com.stripe.android.view.PaymentFlowActivity"
+335-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:26:13-71
+336            android:exported="false"
+336-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:27:13-37
+337            android:theme="@style/StripeDefaultTheme" />
+337-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:28:13-54
+338        <activity
+338-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:29:9-33:58
+339            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+339-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:30:13-78
+340            android:exported="false"
+340-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:31:13-37
+341            android:theme="@style/StripeDefaultTheme"
+341-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:32:13-54
+342            android:windowSoftInputMode="adjustResize" />
+342-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:33:13-55
+343        <activity
+343-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:34:9-37:61
+344            android:name="com.stripe.android.view.PaymentRelayActivity"
+344-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:35:13-72
+345            android:exported="false"
+345-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:36:13-37
+346            android:theme="@style/StripeTransparentTheme" />
+346-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:37:13-58
+347        <!--
+348        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+349        launched the browser Activity will also handle the return URL deep link.
+350        -->
+351        <activity
+351-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:43:9-47:61
+352            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+352-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:44:13-85
+353            android:exported="false"
+353-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:45:13-37
+354            android:launchMode="singleTask"
+354-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:46:13-44
+355            android:theme="@style/StripeTransparentTheme" />
+355-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:47:13-58
+356        <activity
+356-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:48:9-65:20
+357            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+357-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:49:13-88
+358            android:exported="true"
+358-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:50:13-36
+359            android:launchMode="singleTask"
+359-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:51:13-44
+360            android:theme="@style/StripeTransparentTheme" >
+360-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:52:13-58
+361            <intent-filter>
+361-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:53:13-64:29
+362                <action android:name="android.intent.action.VIEW" />
+362-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-69
+362-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-66
+363
+364                <category android:name="android.intent.category.DEFAULT" />
+364-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-76
+364-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:27-73
+365                <category android:name="android.intent.category.BROWSABLE" />
+365-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+365-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-75
+366
+367                <!-- Must match `DefaultReturnUrl#value`. -->
+368                <data
+368-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-50
+369                    android:host="payment_return_url"
+370                    android:path="/com.sleep2022.original"
+371                    android:scheme="stripesdk" />
+371-->[:tipsi-stripe] /Users/spurge/Desktop/new]/backup/sleep/node_modules/tipsi-stripe/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:23-47
+372            </intent-filter>
+373        </activity>
+374        <activity
+374-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:66:9-69:57
+375            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+375-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:67:13-114
+376            android:exported="false"
+376-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:68:13-37
+377            android:theme="@style/StripeDefaultTheme" />
+377-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:69:13-54
+378        <activity
+378-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:70:9-73:66
+379            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+379-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:71:13-88
+380            android:exported="false"
+380-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:72:13-37
+381            android:theme="@style/StripeGooglePayDefaultTheme" />
+381-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:73:13-63
+382        <activity
+382-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:74:9-77:66
+383            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+383-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:75:13-90
+384            android:exported="false"
+384-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:76:13-37
+385            android:theme="@style/StripeGooglePayDefaultTheme" />
+385-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:77:13-63
+386        <activity
+386-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:78:9-81:66
+387            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+387-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:79:13-103
+388            android:exported="false"
+388-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:80:13-37
+389            android:theme="@style/StripeGooglePayDefaultTheme" />
+389-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:81:13-63
+390        <activity
+390-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:82:9-85:62
+391            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+391-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:83:13-107
+392            android:exported="false"
+392-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:84:13-37
+393            android:theme="@style/PayLauncherDefaultTheme" />
+393-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:85:13-59
+394        <activity
+394-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:86:9-89:61
+395            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+395-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:87:13-97
+396            android:exported="false"
+396-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:88:13-37
+397            android:theme="@style/StripeTransparentTheme" />
+397-->[com.stripe:payments-core:20.16.2] /Users/spurge/.gradle/caches/transforms-3/c17aa7fe82aea62090ceb4db3a126dfa/transformed/jetified-payments-core-20.16.2/AndroidManifest.xml:89:13-58
+398        <activity
+398-->[com.stripe:stripe-3ds2-android:6.1.5] /Users/spurge/.gradle/caches/transforms-3/060ca3aa1583ee6d0027c2b9b5c5ff15/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:10:9-13:54
+399            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+399-->[com.stripe:stripe-3ds2-android:6.1.5] /Users/spurge/.gradle/caches/transforms-3/060ca3aa1583ee6d0027c2b9b5c5ff15/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:11:13-81
+400            android:exported="false"
+400-->[com.stripe:stripe-3ds2-android:6.1.5] /Users/spurge/.gradle/caches/transforms-3/060ca3aa1583ee6d0027c2b9b5c5ff15/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:12:13-37
+401            android:theme="@style/Stripe3DS2Theme" />
+401-->[com.stripe:stripe-3ds2-android:6.1.5] /Users/spurge/.gradle/caches/transforms-3/060ca3aa1583ee6d0027c2b9b5c5ff15/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:13:13-51
+402        <activity
+402-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+403            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+403-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+404            android:excludeFromRecents="true"
+404-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+405            android:exported="false"
+405-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+406            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+406-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+407        <!--
+408            Service handling Google Sign-In user revocation. For apps that do not integrate with
+409            Google Sign-In, this service will never be started.
+410        -->
+411        <service
+411-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+412            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+412-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+413            android:exported="true"
+413-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+414            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+414-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+415            android:visibleToInstantApps="true" />
+415-->[com.google.android.gms:play-services-auth:19.2.0] /Users/spurge/.gradle/caches/transforms-3/0466b1a9432dd0592d3da74edfac76f7/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+416
+417        <receiver
+417-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+418            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+418-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+419            android:enabled="true"
+419-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+420            android:exported="false" >
+420-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+421        </receiver>
+422
+423        <service
+423-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+424            android:name="com.google.android.gms.measurement.AppMeasurementService"
+424-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+425            android:enabled="true"
+425-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+426            android:exported="false" />
+426-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+427        <service
+427-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+428            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+428-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+429            android:enabled="true"
+429-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+430            android:exported="false"
+430-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+431            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+431-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/spurge/.gradle/caches/transforms-3/82f2adc2b760c79fbe4c70e4f99980a3/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+432        <uses-library
+432-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+433            android:name="org.apache.http.legacy"
+433-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+434            android:required="false" />
+434-->[com.google.android.gms:play-services-maps:18.0.2] /Users/spurge/.gradle/caches/transforms-3/39eb60630793a4472cdc8f2ac41c8c0e/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+435
+436        <activity
+436-->[com.google.android.gms:play-services-base:18.0.1] /Users/spurge/.gradle/caches/transforms-3/dcad48b92bd92571daeed55d5dcf2817/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+437            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+437-->[com.google.android.gms:play-services-base:18.0.1] /Users/spurge/.gradle/caches/transforms-3/dcad48b92bd92571daeed55d5dcf2817/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+438            android:exported="false"
+438-->[com.google.android.gms:play-services-base:18.0.1] /Users/spurge/.gradle/caches/transforms-3/dcad48b92bd92571daeed55d5dcf2817/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+439            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+439-->[com.google.android.gms:play-services-base:18.0.1] /Users/spurge/.gradle/caches/transforms-3/dcad48b92bd92571daeed55d5dcf2817/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+440        <!--
+441         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+442         with the application context. This config is merged in with the host app's manifest,
+443         but there can only be one provider with the same authority activated at any given
+444         point; so if the end user has two or more different apps that use Facebook SDK, only the
+445         first one will be able to use the provider. To work around this problem, we use the
+446         following placeholder in the authority to identify each host application as if it was
+447         a completely different provider.
+448        -->
+449        <provider
+449-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:29:9-32:40
+450            android:name="com.facebook.internal.FacebookInitProvider"
+450-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:30:13-70
+451            android:authorities="com.sleep2022.original.FacebookInitProvider"
+451-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:31:13-72
+452            android:exported="false" />
+452-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:32:13-37
+453
+454        <receiver
+454-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:34:9-40:20
+455            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+455-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:35:13-86
+456            android:exported="false" >
+456-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:36:13-37
+457            <intent-filter>
+457-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:37:13-39:29
+458                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+458-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:38:17-95
+458-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:38:25-92
+459            </intent-filter>
+460        </receiver>
+461        <receiver
+461-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:41:9-47:20
+462            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+462-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:42:13-118
+463            android:exported="false" >
+463-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:43:13-37
+464            <intent-filter>
+464-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:44:13-46:29
+465                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+465-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:45:17-103
+465-->[com.facebook.android:facebook-core:15.2.0] /Users/spurge/.gradle/caches/transforms-3/c9d3bd0d8b09eade8f9a7b345cf003d7/transformed/jetified-facebook-core-15.2.0/AndroidManifest.xml:45:25-100
+466            </intent-filter>
+467        </receiver>
+468
+469        <meta-data
+469-->[com.google.android.gms:play-services-basement:18.1.0] /Users/spurge/.gradle/caches/transforms-3/da2e4314438f122a183e7e912f90c1cc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+470            android:name="com.google.android.gms.version"
+470-->[com.google.android.gms:play-services-basement:18.1.0] /Users/spurge/.gradle/caches/transforms-3/da2e4314438f122a183e7e912f90c1cc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+471            android:value="@integer/google_play_services_version" />
+471-->[com.google.android.gms:play-services-basement:18.1.0] /Users/spurge/.gradle/caches/transforms-3/da2e4314438f122a183e7e912f90c1cc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+472
+473        <provider
+473-->[androidx.emoji2:emoji2:1.2.0] /Users/spurge/.gradle/caches/transforms-3/b27fb2a79e58b2429864f85a709e10b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+474            android:name="androidx.startup.InitializationProvider"
+474-->[androidx.emoji2:emoji2:1.2.0] /Users/spurge/.gradle/caches/transforms-3/b27fb2a79e58b2429864f85a709e10b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+475            android:authorities="com.sleep2022.original.androidx-startup"
+475-->[androidx.emoji2:emoji2:1.2.0] /Users/spurge/.gradle/caches/transforms-3/b27fb2a79e58b2429864f85a709e10b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+476            android:exported="false" >
+476-->[androidx.emoji2:emoji2:1.2.0] /Users/spurge/.gradle/caches/transforms-3/b27fb2a79e58b2429864f85a709e10b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+477            <meta-data
+477-->[androidx.emoji2:emoji2:1.2.0] /Users/spurge/.gradle/caches/transforms-3/b27fb2a79e58b2429864f85a709e10b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+478                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+478-->[androidx.emoji2:emoji2:1.2.0] /Users/spurge/.gradle/caches/transforms-3/b27fb2a79e58b2429864f85a709e10b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+479                android:value="androidx.startup" />
+479-->[androidx.emoji2:emoji2:1.2.0] /Users/spurge/.gradle/caches/transforms-3/b27fb2a79e58b2429864f85a709e10b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+480            <meta-data
+480-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+481                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+481-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+482                android:value="androidx.startup" />
+482-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+483            <meta-data
+483-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/spurge/.gradle/caches/transforms-3/d0ce258b4596d3532d625b3f9c70d3a6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+484                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+484-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/spurge/.gradle/caches/transforms-3/d0ce258b4596d3532d625b3f9c70d3a6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+485                android:value="androidx.startup" />
+485-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/spurge/.gradle/caches/transforms-3/d0ce258b4596d3532d625b3f9c70d3a6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+486        </provider>
+487
+488        <receiver
+488-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+489            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+489-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+490            android:directBootAware="false"
+490-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+491            android:enabled="true"
+491-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+492            android:exported="true"
+492-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+493            android:permission="android.permission.DUMP" >
+493-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+494            <intent-filter>
+494-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+495                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+495-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+495-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+496            </intent-filter>
+497            <intent-filter>
+497-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+498                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+498-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+498-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/spurge/.gradle/caches/transforms-3/8fe24ae777688a913e19cfc31cef2dff/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+499            </intent-filter>
+500        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+501        <activity
+501-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:18:9-24:45
+502            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+502-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:19:13-100
+503            android:enabled="false"
+503-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:20:13-36
+504            android:exported="false"
+504-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:21:13-37
+505            android:launchMode="singleInstance"
+505-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:22:13-48
+506            android:process=":playcore_missing_splits_activity"
+506-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:23:13-64
+507            android:stateNotNeeded="true" />
+507-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:24:13-42
+508        <activity
+508-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:25:9-29:65
+509            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+509-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:26:13-93
+510            android:exported="false"
+510-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:27:13-37
+511            android:stateNotNeeded="true"
+511-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:28:13-42
+512            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+512-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:29:13-62
+513        <service
+513-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:32:9-39:19
+514            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+514-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:33:13-94
+515            android:enabled="false"
+515-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:34:13-36
+516            android:exported="true" >
+516-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:35:13-36
+517            <meta-data
+517-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:36:13-38:41
+518                android:name="com.google.android.play.core.assetpacks.versionCode"
+518-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:37:17-83
+519                android:value="11003" />
+519-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:38:17-38
+520        </service>
+521        <service
+521-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:40:9-43:40
+522            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+522-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:41:13-95
+523            android:enabled="false"
+523-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:42:13-36
+524            android:exported="false" />
+524-->[com.google.android.play:core:1.10.3] /Users/spurge/.gradle/caches/transforms-3/ff5a8b878b013976fc595e60764c6fb1/transformed/jetified-core-1.10.3/AndroidManifest.xml:43:13-37
+525
+526        <meta-data
+526-->[com.google.android.instantapps:instantapps:1.1.0] /Users/spurge/.gradle/caches/transforms-3/443512e16519164ead83774727ae967d/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+527            android:name="aia-compat-api-min-version"
+527-->[com.google.android.instantapps:instantapps:1.1.0] /Users/spurge/.gradle/caches/transforms-3/443512e16519164ead83774727ae967d/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
+528            android:value="1" />
+528-->[com.google.android.instantapps:instantapps:1.1.0] /Users/spurge/.gradle/caches/transforms-3/443512e16519164ead83774727ae967d/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+529    </application>
+530
+531</manifest>

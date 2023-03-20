@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+drawable next
+drawable pause
+drawable play
+drawable previous
+drawable skip_backward_10
+drawable skip_backward_30
+drawable skip_backward_5
+drawable skip_forward_10
+drawable skip_forward_30
+drawable skip_forward_5
+drawable stop
